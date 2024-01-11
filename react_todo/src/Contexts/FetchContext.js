@@ -5,6 +5,7 @@ const FetchContext = createContext()
 
 export const FetchContextProvider = ({children}) =>{
   const [todoItems, setTodoItems] = useState([]);
+  const [ token, setToken ] = useState(localStorage.getItem('refresh_token'));
 
   const FetchDataHandler = async () =>{
     try{
@@ -17,7 +18,7 @@ export const FetchContextProvider = ({children}) =>{
     }
 
     return (
-        <FetchContext.Provider value={{ todoItems, FetchDataHandler, setTodoItems}}>{children}</FetchContext.Provider>
+        <FetchContext.Provider value={{ todoItems, FetchDataHandler, setTodoItems, token, setToken }}>{children}</FetchContext.Provider>
     );
 }
 

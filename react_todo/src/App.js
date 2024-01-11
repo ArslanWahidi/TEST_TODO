@@ -2,7 +2,7 @@ import React from "react";
 import TaskList from "./component/TaskList";
 import FormList from "./component/FormList";
 import { FetchContextProvider } from "./Contexts/FetchContext";
-import { Navbar } from "./component/navbar";
+import { Navbar } from "./component/Navbar";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 function App() {

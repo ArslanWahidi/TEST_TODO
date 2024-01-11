@@ -16,7 +16,10 @@ const TaskList = () => {
   // }, []);
 
   // New Method for fetching data by the Tanstack query.
-  const { data, isLoading, isRefetching, isError, status } = useQuery({
+
+  const { setToken } = useContext(FetchContext);
+
+  const { data, isLoading, isRefetching, isError } = useQuery({
     queryKey: ['task_list'],
     queryFn: async () => {
 
@@ -26,10 +29,17 @@ const TaskList = () => {
             Authorization: `Bearer ${localStorage.getItem('access_token')}`,
           }
         })
+        console.log('try block run from task')
+
         return res.data;
       }catch(err){
+        console.log('error block run from task')
+
         if(err.response.status === 401){
-          // window.location = '/login_page/';
+          console.log(err.response.status)
+          setToken(null);
+          localStorage.removeItem('access_token');
+          localStorage.removeItem('refresh_token');
         }
       }
 
@@ -40,8 +50,12 @@ const TaskList = () => {
   return (
     <div className="p-3">
       <h2 className="text-lg font-bold mb-3">List of Content</h2>
-      {
-        isLoading || isRefetching || isError ? 
+      {isError ? 
+        <div className="text-center">
+          You have to login in order to see your TODOS.
+        </div>
+        :
+        isLoading || isRefetching ? 
         <div className="text-center mb-[5px]">
           Bring Latest Updates <FontAwesomeIcon spin icon={faSpinner} size='1x' /> 
         </div>

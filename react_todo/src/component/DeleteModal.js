@@ -55,6 +55,8 @@ const DeleteModal = ({ onCloseModel, id }) => {
       }catch(err){
         if(err.response.status === 401){
           window.location = '/login_page/';
+          localStorage.removeItem('access_token');
+          localStorage.removeItem('refresh_token');
         }
       }
 

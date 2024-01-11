@@ -1,20 +1,22 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import axios from "axios";
 import React from "react";
+import FetchContext from "../Contexts/FetchContext";
 
 export function Navbar() {
   
   const [navbarOpen, setNavbarOpen] = useState(false);
 
-  const [ token , setToken ] = useState(localStorage.getItem('refresh_token'));
+  const { token } = useContext(FetchContext);
 
-  console.log(localStorage.getItem('refresh_token'))
+  console.log('navbar run');
+  console.log(token)
 
   const onRemoveTokenHandler = async () =>{
     try{
       const csrf_res = await fetch('/csrf_token');
       const csrf_data = await csrf_res.json();
-      
+
       const res = await axios.post('/log_out_user/', {
         'refresh_token': localStorage.getItem('refresh_token'),
       }, {
@@ -29,12 +31,15 @@ export function Navbar() {
         localStorage.removeItem('access_token');
         localStorage.removeItem('refresh_token');
         window.location = '/login_page/';
-        console.log('try block run')
       }
+      console.log('try block run');
+
     }catch(err){
-      // window.location = '/login_page/';
-      console.log('errr run')
-      console.log(err)
+      if(err.response.status === 401){
+        localStorage.removeItem('access_token');
+        localStorage.removeItem('refresh_token');
+        window.location = '/login_page/'
+      }
     }
   }
 
