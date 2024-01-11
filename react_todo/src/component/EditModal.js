@@ -66,13 +66,19 @@ const EditModal = ({ onCloseModel, id, data }) =>{
         const csrf_res = await fetch('/csrf_token/');
         const csrf_data = await csrf_res.json();
 
-        await axios.post(`/task_update/${id}/`, newData, {
-          headers: {
-            'Content-Type': 'application/json',
-            'X-CSRFToken': csrf_data.csrfToken,
-            Authorization: `Bearer ${localStorage.getItem('access_token')}`,     
+        try{
+          await axios.post(`/task_update/${id}/`, newData, {
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRFToken': csrf_data.csrfToken,
+              Authorization: `Bearer ${localStorage.getItem('access_token')}`,     
+            }
+          })
+        }catch(err){
+          if(err.response.status === 401){
+            window.location = '/login_page/';
           }
-        })
+        }
       },
       onSuccess: () => {
         queryClient.invalidateQueries({queryKey: ['task_list']}, {exact: true});

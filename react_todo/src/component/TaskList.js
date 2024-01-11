@@ -29,7 +29,7 @@ const TaskList = () => {
         return res.data;
       }catch(err){
         if(err.response.status === 401){
-          window.location = '/login_page/';
+          // window.location = '/login_page/';
         }
       }
 

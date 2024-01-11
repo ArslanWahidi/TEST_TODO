@@ -36,7 +36,6 @@ const Register = () =>{
             }
             
         }catch(err){
-            console.log('error occured')
             console.log(err);
         }
 

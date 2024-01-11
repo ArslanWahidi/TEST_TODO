@@ -13,9 +13,4 @@ urlpatterns = [
     path('task_create/', views.TaskCreate, name='task_create'),
     path('task_update/<str:pk>/', views.TaskUpdate, name='task_update'),
     path('task_delete/<str:pk>/', views.TaskDelete, name='task_delete'),
-
-    # Authetication Urls
-    path('login', views.login, name='login'),
-    path('sign_up', views.SignUp, name='sign_up'),
-    path('test_token', views.test_token, name='test_token'),
 ]

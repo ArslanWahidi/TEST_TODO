@@ -59,7 +59,7 @@ const LoginForm = () =>{
                 </form>
 
                 <div className='mt-[20px] text-right'>
-                    <a href="/register_page/" className='hover:text-gray-600'>Not register yes?</a>
+                    <a href="/register_page/" className='hover:text-gray-600'>Not register yet?</a>
                 </div>
             </div> 
         </>

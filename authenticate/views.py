@@ -66,3 +66,17 @@ def LoginUser(request):
         return Response(status=status.HTTP_200_OK, data=token_serializer.data)
     else:
         return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+# Logout View
+
+@api_view(['POST'])
+def LogOutUser(request):
+    try:
+        refresh_token = request.data['refresh_token']
+        if refresh_token:
+            token = RefreshToken(refresh_token)
+            token.blacklist()
+            return Response(status=status.HTTP_200_OK)
+    except:
+        print('error occured')
+        return Response(status=status.HTTP_401_UNAUTHORIZED)

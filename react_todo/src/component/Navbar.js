@@ -1,7 +1,43 @@
-import React from "react";
 import { useState } from "react";
+import axios from "axios";
+import React from "react";
+
 export function Navbar() {
+  
   const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const [ token , setToken ] = useState(localStorage.getItem('refresh_token'));
+
+  console.log(localStorage.getItem('refresh_token'))
+
+  const onRemoveTokenHandler = async () =>{
+    try{
+      const csrf_res = await fetch('/csrf_token');
+      const csrf_data = await csrf_res.json();
+      
+      const res = await axios.post('/log_out_user/', {
+        'refresh_token': localStorage.getItem('refresh_token'),
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrf_data.csrfToken,
+          Authorization: `Bearer ${localStorage.getItem('access_token')}`,
+        }
+      });
+
+      if(res.status == 200){
+        localStorage.removeItem('access_token');
+        localStorage.removeItem('refresh_token');
+        window.location = '/login_page/';
+        console.log('try block run')
+      }
+    }catch(err){
+      // window.location = '/login_page/';
+      console.log('errr run')
+      console.log(err)
+    }
+  }
+
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between mb-3 bg-blue-500">
@@ -62,20 +98,32 @@ export function Navbar() {
                   <span className="ml-2">Pin</span>
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/register_page"
-                >
-                  Register
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/login_page"
-                >
-                  Login
-                </a>
-              </li>
+              {!!token ?
+                <li className="nav-item">
+                  <div className="cursor-default px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                    onClick={onRemoveTokenHandler}
+                    >
+                    Log out
+                  </div>
+                </li> 
+                  : 
+                <>
+                  <li className="nav-item">
+                    <a className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                      href="/register_page"
+                      >
+                      Register
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                      href="/login_page"
+                      >
+                      Login
+                    </a>
+                  </li>
+                </>
+              }
             </ul>
           </div>
         </div>

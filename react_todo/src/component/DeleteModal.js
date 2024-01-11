@@ -53,8 +53,9 @@ const DeleteModal = ({ onCloseModel, id }) => {
           }
         });
       }catch(err){
-        console.log(err)
-        throw new Error('Failed to delete item');
+        if(err.response.status === 401){
+          window.location = '/login_page/';
+        }
       }
 
     },

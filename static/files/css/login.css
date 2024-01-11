@@ -711,6 +711,9 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
+.cursor-default {
+  cursor: default;
+}
 .list-none {
   list-style-type: none;
 }

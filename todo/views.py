@@ -74,15 +74,3 @@ def TaskDelete(request, pk):
     serializer = TaskSerializer(tasks, many=True)
     return Response(serializer.data)
 
-
-@api_view(['POST'])
-def login(request):
-    return Response({})
-
-@api_view(['POST'])
-def SignUp(request):
-    return Response({})
-
-@api_view(['GET'])
-def test_token(request):
-    return Response({})
