@@ -1,0 +1,87 @@
+{
+   "status": "done",
+   "assets": {
+      "css/completed.css": {
+         "name": "css/completed.css",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\completed.css",
+         "integrity": "sha256-3v5+Pgaa4CW+o0A6UvV7hltg7wlfn1Xv++KMGXIUu6o= sha384-tvY+OGSMpIbjo4syMQ1sc2myxrOIscf+0xQR4vAItCP7+1wri/Qto0OV6qUgDOLA sha512-Qn36nLxDgLgNSaVPIUKu1b19O6KqfTnRbBUt92A97FLMKltqgQ28ZiAvrnYLGA9+G7Qh45Cf74P+t7fkD2Nlxg=="
+      },
+      "css/index.css": {
+         "name": "css/index.css",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\index.css",
+         "integrity": "sha256-3v5+Pgaa4CW+o0A6UvV7hltg7wlfn1Xv++KMGXIUu6o= sha384-tvY+OGSMpIbjo4syMQ1sc2myxrOIscf+0xQR4vAItCP7+1wri/Qto0OV6qUgDOLA sha512-Qn36nLxDgLgNSaVPIUKu1b19O6KqfTnRbBUt92A97FLMKltqgQ28ZiAvrnYLGA9+G7Qh45Cf74P+t7fkD2Nlxg=="
+      },
+      "css/login.css": {
+         "name": "css/login.css",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\login.css",
+         "integrity": "sha256-3v5+Pgaa4CW+o0A6UvV7hltg7wlfn1Xv++KMGXIUu6o= sha384-tvY+OGSMpIbjo4syMQ1sc2myxrOIscf+0xQR4vAItCP7+1wri/Qto0OV6qUgDOLA sha512-Qn36nLxDgLgNSaVPIUKu1b19O6KqfTnRbBUt92A97FLMKltqgQ28ZiAvrnYLGA9+G7Qh45Cf74P+t7fkD2Nlxg=="
+      },
+      "css/register.css": {
+         "name": "css/register.css",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\register.css",
+         "integrity": "sha256-3v5+Pgaa4CW+o0A6UvV7hltg7wlfn1Xv++KMGXIUu6o= sha384-tvY+OGSMpIbjo4syMQ1sc2myxrOIscf+0xQR4vAItCP7+1wri/Qto0OV6qUgDOLA sha512-Qn36nLxDgLgNSaVPIUKu1b19O6KqfTnRbBUt92A97FLMKltqgQ28ZiAvrnYLGA9+G7Qh45Cf74P+t7fkD2Nlxg=="
+      },
+      "js/completed.js": {
+         "name": "js/completed.js",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\completed.js",
+         "integrity": "sha256-dUdIpt7sojwlq9xwwsIMf1X+Tl4OOdm+7OLlUqx9a7k= sha384-kat6l6BiEF2GTcutYf8fXjVuLE5eRo/zjXhPXBn+iqmiKJGY+VIxV66srraFW9Dw sha512-qUk1MR9uGZMC+ZawsOdWGtowgqIqV8qxi9mCiy9SS9OOT03790oz0hDqS/zmRvVDm396sbvRcP5FhdhOPbcjZA=="
+      },
+      "js/completed.js.LICENSE.txt": {
+         "name": "js/completed.js.LICENSE.txt",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\completed.js.LICENSE.txt",
+         "integrity": "sha256-e5p1o8nk5I59O2lYb59lVhS16o36RTqkziIaZ9X8TZA= sha384-kyagd6wOhmANy2qnR1/xthWq5rX76Oa4j+rIEhgGCwhAnU7N9MLAvjUWLLAO3ISR sha512-Kw071QZ8QhYxuGwV9oTSyAioP3VQwq+t8HRfghbnoHg0n22gQ941sWx+5HVNiuYQM9nkpfw7ODIxc+WpeJO33Q=="
+      },
+      "js/index.js": {
+         "name": "js/index.js",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\index.js",
+         "integrity": "sha256-0CbBK4vDnz5dnJvodjBPF1LwVn2Du8HZXztMWVi0LqY= sha384-kZG9dgKn25SsxXOD93A6H4v3QI7BUeX/DU2k05D6VOIGttX0VYr5V6DVtXWzMAMP sha512-w3brIhlAaR9ZUzW2XLbKDCZS4A2COJRYnW6HDkNRcRh+mAJ6dOnKzXduy86GqZLjsbi3ZkH+M0GK6UO3E4h/4w=="
+      },
+      "js/index.js.LICENSE.txt": {
+         "name": "js/index.js.LICENSE.txt",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\index.js.LICENSE.txt",
+         "integrity": "sha256-qdgdGMKfHR6gGFxEVmUnfwi+aKX96yocLeFxo6o4omU= sha384-Zb6UbR6J/csmRkEKC3LVeTM4ApLJ+oUa/ZmSBJsEx7COVizok8uBOc7IDMZQ9Cx5 sha512-mhLU1ihrzP48hNd2o6KzxckRoLO6j0BAaacoaNp001mA0TiGTfi2FggVzVeY58V83kZ9VoCuUY2U/AIAmvBmDg=="
+      },
+      "js/login.js": {
+         "name": "js/login.js",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\login.js",
+         "integrity": "sha256-vHX6L2HeX/9kbyowZkS/dOWBWlR2LBis2tUteHA+raY= sha384-O8yLZfDTSfrKHbWj0b6O2eHi98ouvDKDA02OtpuPpZ1SaTkkDJy+ErmCFmSZA30m sha512-GbGjnJJWn0HlVozjMGhtS9WQi4BQeL7s/G8EuryxIFn9nQ7VCifq1WqyX65CaYHYLHJyz1HveOxR+VwUZccwFw=="
+      },
+      "js/login.js.LICENSE.txt": {
+         "name": "js/login.js.LICENSE.txt",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\login.js.LICENSE.txt",
+         "integrity": "sha256-HUOP3cZZ81P7PbergiFqVecfaqOvolOYSeaBkgN+pic= sha384-xCrzhzGHxyWeJOwlB7nIGjtEqheuH0ituczSAQbw62ZWit0cgbLqZKrk/JUElb3G sha512-wSl8aNwgXPJO6hWvafrxQ0WBXmf8SIzBh70nCYSpIVMPVBtL3SmDEwWkPWcEuruhdTTj97Jkjyt2M/SLqCKPCA=="
+      },
+      "js/register.js": {
+         "name": "js/register.js",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\register.js",
+         "integrity": "sha256-9xcuaQEqbomjTfGfFQ0txmuT7xLmFMawL+rYorClB0k= sha384-Ou3ECNpc53gTrEdVXN3ToiDYXZPOMqbdF/pJaDX1DTTY3tGQEzuoWXZLLBz8Uhb+ sha512-baB7LXzlTRAfZX/uIiQqIy5Uhbac4tjuTGvkYpL1JpfJIKdVKSLdl44aqOVUCnNHSaXaS/MQhx+6SoCbHherUA=="
+      },
+      "js/register.js.LICENSE.txt": {
+         "name": "js/register.js.LICENSE.txt",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\register.js.LICENSE.txt",
+         "integrity": "sha256-HUOP3cZZ81P7PbergiFqVecfaqOvolOYSeaBkgN+pic= sha384-xCrzhzGHxyWeJOwlB7nIGjtEqheuH0ituczSAQbw62ZWit0cgbLqZKrk/JUElb3G sha512-wSl8aNwgXPJO6hWvafrxQ0WBXmf8SIzBh70nCYSpIVMPVBtL3SmDEwWkPWcEuruhdTTj97Jkjyt2M/SLqCKPCA=="
+      }
+   },
+   "chunks": {
+      "completed": [
+         "css/completed.css",
+         "js/completed.js"
+      ],
+      "index": [
+         "css/index.css",
+         "js/index.js"
+      ],
+      "login": [
+         "css/login.css",
+         "js/login.js"
+      ],
+      "register": [
+         "css/register.css",
+         "js/register.js"
+      ]
+   },
+   "startTime": 1704971005830,
+   "endTime": 1704971020006,
+   "error": "ModuleBuildError",
+   "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\src\\component\\EditModal.js: Unterminated regular expression. (116:20)\n\n  114 |                       Updating Changes <FontAwesomeIcon spin icon={faSpinner} size='1x' /> }\n  115 |                     </>: null\n> 116 |                   </div>\n      |                     ^\n  117 |                   <form onSubmit={OnSubmitEditItemhandler}>\n  118 |                     <div className=\"bg-gray-200 z-10 bg-opacity-1000 shadow-md rounded px-6 pt-4 pb-6 w-5/6 mb-6 mx-auto\">\n  119 |                       <label className=\"block text-black text-sm font-bold mb-1\">\n    at constructor (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:356:19)\n    at JSXParserMixin.raise (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:3223:19)\n    at JSXParserMixin.readRegexp (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:2910:20)\n    at JSXParserMixin.parseExprAtom (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:11122:16)\n    at JSXParserMixin.parseExprAtom (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOpBaseRightExpr (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10752:34)\n    at JSXParserMixin.parseExprOpRightExpr (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10747:21)\n    at JSXParserMixin.parseExprOp (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10710:27)\n    at JSXParserMixin.parseExprOps (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10668:17)\n    at JSXParserMixin.parseMaybeConditional (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at JSXParserMixin.parseConditional (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10653:29)\n    at JSXParserMixin.parseMaybeConditional (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10645:17)\n    at JSXParserMixin.parseMaybeAssign (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at JSXParserMixin.parseExpressionBase (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10556:23)\n    at D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10552:39\n    at JSXParserMixin.allowInAnd (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12289:12)\n    at JSXParserMixin.parseExpression (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10552:17)\n    at JSXParserMixin.jsxParseExpressionContainer (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6797:31)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6876:36)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6863:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6863:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6863:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6863:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6863:32)\n    at JSXParserMixin.jsxParseElement (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6920:17)\n    at JSXParserMixin.parseExprAtom (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOps (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10572:39\n    at JSXParserMixin.allowInAnd (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12289:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10572:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:11504:28)\n    at JSXParserMixin.parseExprAtom (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:11142:23)\n    at JSXParserMixin.parseExprAtom (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOps (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)"
+}
