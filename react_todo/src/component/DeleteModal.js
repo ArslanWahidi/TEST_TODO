@@ -4,6 +4,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AccessTokenAPI from "../AccessTokenAPI";
 
 const DeleteModal = ({ onCloseModel, id }) => {
 
@@ -45,19 +46,14 @@ const DeleteModal = ({ onCloseModel, id }) => {
       const csrf_data = await csrf_res.json();
 
       try{
-        await axios.post(`/task_delete/${id}/`, null, {
+        await AccessTokenAPI.post(`/task_delete/${id}/`, null, {
           headers: {
             "Content-Type": "application/json",
             "X-CSRFToken": csrf_data.csrfToken,
-            Authorization: `Bearer ${localStorage.getItem('access_token')}`,
           }
         });
       }catch(err){
-        if(err.response.status === 401){
-          window.location = '/login_page/';
-          localStorage.removeItem('access_token');
-          localStorage.removeItem('refresh_token');
-        }
+        
       }
 
     },

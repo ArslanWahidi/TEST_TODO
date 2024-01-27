@@ -5,6 +5,7 @@ import { FetchContextProvider } from "./Contexts/FetchContext";
 import { Navbar } from "./component/Navbar";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
+
 function App() {
   const client = new QueryClient();
 

@@ -1,15 +1,40 @@
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.decorators import api_view
-from .serializers import UserSerializer, TokenSerializer
+from .serializers import UserSerializer
 from .models import User
 from rest_framework_simplejwt.tokens import AccessToken, RefreshToken, TokenError
+from rest_framework_simplejwt.views import TokenRefreshView
+from rest_framework_simplejwt.exceptions import InvalidToken
 
-from django.http import HttpResponseRedirect
-from django.urls import reverse
+from django.http import QueryDict
 
 # Create your views here.
+
+# Curotmized the Refresh Token Accesss
+class CustomTokenRefreshView(TokenRefreshView):
+    def post(self, request, *args, **kwargs):
+        # Set the token in the QueryDict data
+ 
+        query_dict = QueryDict(mutable=True)
+        query_dict.update({
+            'csrfmiddlewaretoken': request.COOKIES.get('csrftoken'), 
+            'refresh': request.COOKIES.get('refresh_token')
+        })
+
+        serializer = self.get_serializer(data=query_dict)
+        response = Response(status=status.HTTP_200_OK)
+        try:
+            serializer.is_valid(raise_exception=True)
+            response.set_cookie('refresh_token', serializer.validated_data['refresh'], httponly=True)
+            response.set_cookie('access_token', serializer.validated_data['access'], httponly=True)
+        except TokenError as e:
+            print('the except block run in the refresh customization')
+            raise InvalidToken(e.args[0])
+        
+        return response
 
 # Registration Views
 def RegisterPage(request):
@@ -17,23 +42,28 @@ def RegisterPage(request):
 
 @api_view(['POST'])
 def RegisterNewUser(request):
-    print(request.data)
-
     if User.objects.filter(email=request.data['email']):
-        return Response(status=status.HTTP_200_OK, data={'data': 'data return the the response function', 'dataone': 'second data of the response'})
+        return Response(status=status.HTTP_200_OK, data=
+                        {'data': 'data return the the response function', 
+                         'dataone': 'second data of the response'})
 
     serializer = UserSerializer(data=request.data)
+
     if serializer.is_valid():
         serializer.save()
         return Response(status=status.HTTP_201_CREATED)
-    
     
     return Response(status=status.HTTP_400_BAD_REQUEST)
 
 # Login views
 
 def LoginPage(request):
-    return render(request, 'login.html')
+    response = render(request, 'login.html')
+
+    response.delete_cookie('access_token')
+    response.delete_cookie('refresh_token')
+
+    return response
 
 @api_view(['POST'])
 def LoginUser(request):
@@ -52,31 +82,27 @@ def LoginUser(request):
     accessToken = AccessToken.for_user(user)
     refreshToken = RefreshToken.for_user(user)
 
-    # return Response(status=status.HTTP_200_OK, data={
-    #     'access_token': accessToken.token,
-    #     'refresh_token': refreshToken.token
-    # })
-
-    token_serializer = TokenSerializer(data={
-        'access_token': str(accessToken),
-        'refresh_token': str(refreshToken)
-    })
-
-    if token_serializer.is_valid():
-        return Response(status=status.HTTP_200_OK, data=token_serializer.data)
-    else:
-        return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    response = Response(status=status.HTTP_200_OK, )
+    response.set_cookie('access_token', accessToken, httponly=True)
+    response.set_cookie('refresh_token', refreshToken, httponly=True)
+    return response
 
 # Logout View
 
 @api_view(['POST'])
 def LogOutUser(request):
     try:
-        refresh_token = request.data['refresh_token']
+        refresh_token = request.COOKIES.get('refresh_token')
+        
+        response = Response(status=status.HTTP_200_OK)
+
         if refresh_token:
+            response.delete_cookie('refresh_token')
+            response.delete_cookie('access_token')
+
             token = RefreshToken(refresh_token)
             token.blacklist()
-            return Response(status=status.HTTP_200_OK)
+            return response
     except:
-        print('error occured')
+        print('error occured in the logout view in the authentication app')
         return Response(status=status.HTTP_401_UNAUTHORIZED)

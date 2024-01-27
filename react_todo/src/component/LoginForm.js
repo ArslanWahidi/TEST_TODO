@@ -24,13 +24,10 @@ const LoginForm = () =>{
                     'X-CSRFToken': csrf_data.csrfToken,
                 }
             });
-            
-            // Storing Access in cookie
-            localStorage.setItem('access_token', res.data.access_token);
-            localStorage.setItem('refresh_token', res.data.refresh_token);
 
-            if(res.status == 200){
+            if(res.status === 200){
                 window.location = '/'
+                localStorage.setItem('login', true)
             }
 
         }catch(err){

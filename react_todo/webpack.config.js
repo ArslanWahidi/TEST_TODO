@@ -6,10 +6,30 @@ module.exports = {
   mode: "production",
   context: __dirname,
   entry: {
-    index: "./src/index.js",
-    completed: "./src/completed.js",
-    login: "./src/Login.js",
-    register: "./src/Register.js",
+    index: {
+      import: "./src/index.js",
+    },
+    completed: {
+      import: "./src/completed.js",
+    },
+    login: {
+      import: "./src/Login.js",
+    },
+    register: {
+      import: "./src/Register.js",
+    },
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        shared: {
+          name: 'shared',
+          chunks: 'all',
+          enforce: true,
+          test: /[\\/]node_modules[\\/]/,
+        },
+      },
+    },
   },
   output: {
     path: path.resolve("../static/files/"),

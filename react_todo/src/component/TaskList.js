@@ -5,7 +5,8 @@ import axios from 'axios';
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useQuery } from '@tanstack/react-query';
-import Cookies from 'js-cookie';
+import AccessTokenAPI from "../AccessTokenAPI";
+import { toast } from "react-toastify";
 
 const TaskList = () => {
 
@@ -19,27 +20,23 @@ const TaskList = () => {
 
   const { setToken } = useContext(FetchContext);
 
-  const { data, isLoading, isRefetching, isError } = useQuery({
+  const { data, isLoading, isRefetching, isError, isSuccess } = useQuery({
     queryKey: ['task_list'],
     queryFn: async () => {
-
       try{
-        const res = await axios.get('/task_list', {
+        const res = await AccessTokenAPI.get('/task_list', 
+        {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem('access_token')}`,
+            "Content-Type": "application/json",
           }
         })
-        console.log('try block run from task')
-
         return res.data;
       }catch(err){
-        console.log('error block run from task')
-
         if(err.response.status === 401){
-          console.log(err.response.status)
           setToken(null);
-          localStorage.removeItem('access_token');
-          localStorage.removeItem('refresh_token');
+        }
+        if(err.response.status === 400){
+          toast('You have to login in order to enable functinality.');
         }
       }
 
@@ -61,12 +58,12 @@ const TaskList = () => {
         </div>
         : null
       }
-      {data?.map((item) => {
+      {isSuccess ? data?.map((item) => {
         if (item.completed === false) {
           return <List key={item.id} item={item} />;
         }
         return [];
-      })}
+      }) : null}
     </div>
   );
 };

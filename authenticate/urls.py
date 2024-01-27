@@ -6,6 +6,8 @@ from . import views
 app_name = 'authenticate'
 
 urlpatterns = [
+    # Customized Refersh Key Urls
+    path('token/customize_refresh/', views.CustomTokenRefreshView.as_view(), name="customize_token_refresh"),
     # Register Urls
     path('register_page/', views.RegisterPage, name='register_page'),
     path('register_new_user/', views.RegisterNewUser, name='register_new_user'),

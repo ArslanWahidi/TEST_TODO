@@ -4,84 +4,96 @@
       "css/completed.css": {
          "name": "css/completed.css",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\completed.css",
-         "integrity": "sha256-BVoNMuW4n5DT3LchTZsOQMCueoRHKlzf+sLwGEDrAbI= sha384-ggeqlAnGqrZ7O2TrhVT+0Dh+QotfLLhLqj/O0uyWiQpWpW81S+XY7URmXWkgQRhr sha512-qZ9ETUkRAV8ihfCbRBJAA1QYL9jlB2v4+hiVwZHhudDWR6Hbi5WoBaeQbuyILkgR94HB46lNT734LehSUtL34A=="
+         "integrity": "sha256-rswXtBg0BZXq6h2Xd45k3yoVxuW6nFNA1FA6yLLzPdU= sha384-Pd3qYpNcewyHwUAcKBt+BGEuEqDjWesrNebzF7wZqdBQu4347MUhPtfWT6LfHNHM sha512-eBjSCrkPkLvgMtrmlDT7IvAJLla2uW+/++b4wIM+Pq0J9tREyEvY6LkH1NDud3J18TB1PCDflHvZX6FRabkmow=="
       },
       "css/index.css": {
          "name": "css/index.css",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\index.css",
-         "integrity": "sha256-BVoNMuW4n5DT3LchTZsOQMCueoRHKlzf+sLwGEDrAbI= sha384-ggeqlAnGqrZ7O2TrhVT+0Dh+QotfLLhLqj/O0uyWiQpWpW81S+XY7URmXWkgQRhr sha512-qZ9ETUkRAV8ihfCbRBJAA1QYL9jlB2v4+hiVwZHhudDWR6Hbi5WoBaeQbuyILkgR94HB46lNT734LehSUtL34A=="
+         "integrity": "sha256-rswXtBg0BZXq6h2Xd45k3yoVxuW6nFNA1FA6yLLzPdU= sha384-Pd3qYpNcewyHwUAcKBt+BGEuEqDjWesrNebzF7wZqdBQu4347MUhPtfWT6LfHNHM sha512-eBjSCrkPkLvgMtrmlDT7IvAJLla2uW+/++b4wIM+Pq0J9tREyEvY6LkH1NDud3J18TB1PCDflHvZX6FRabkmow=="
       },
       "css/login.css": {
          "name": "css/login.css",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\login.css",
-         "integrity": "sha256-BVoNMuW4n5DT3LchTZsOQMCueoRHKlzf+sLwGEDrAbI= sha384-ggeqlAnGqrZ7O2TrhVT+0Dh+QotfLLhLqj/O0uyWiQpWpW81S+XY7URmXWkgQRhr sha512-qZ9ETUkRAV8ihfCbRBJAA1QYL9jlB2v4+hiVwZHhudDWR6Hbi5WoBaeQbuyILkgR94HB46lNT734LehSUtL34A=="
+         "integrity": "sha256-rswXtBg0BZXq6h2Xd45k3yoVxuW6nFNA1FA6yLLzPdU= sha384-Pd3qYpNcewyHwUAcKBt+BGEuEqDjWesrNebzF7wZqdBQu4347MUhPtfWT6LfHNHM sha512-eBjSCrkPkLvgMtrmlDT7IvAJLla2uW+/++b4wIM+Pq0J9tREyEvY6LkH1NDud3J18TB1PCDflHvZX6FRabkmow=="
       },
       "css/register.css": {
          "name": "css/register.css",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\css\\register.css",
-         "integrity": "sha256-BVoNMuW4n5DT3LchTZsOQMCueoRHKlzf+sLwGEDrAbI= sha384-ggeqlAnGqrZ7O2TrhVT+0Dh+QotfLLhLqj/O0uyWiQpWpW81S+XY7URmXWkgQRhr sha512-qZ9ETUkRAV8ihfCbRBJAA1QYL9jlB2v4+hiVwZHhudDWR6Hbi5WoBaeQbuyILkgR94HB46lNT734LehSUtL34A=="
+         "integrity": "sha256-rswXtBg0BZXq6h2Xd45k3yoVxuW6nFNA1FA6yLLzPdU= sha384-Pd3qYpNcewyHwUAcKBt+BGEuEqDjWesrNebzF7wZqdBQu4347MUhPtfWT6LfHNHM sha512-eBjSCrkPkLvgMtrmlDT7IvAJLla2uW+/++b4wIM+Pq0J9tREyEvY6LkH1NDud3J18TB1PCDflHvZX6FRabkmow=="
       },
       "js/completed.js": {
          "name": "js/completed.js",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\completed.js",
-         "integrity": "sha256-BVsrkGyX+4GklfS+IbIFxwHBsT5IMFr/hrPMS4XsIlM= sha384-ixcpoE/cTZl+w+fnupvkNzVTKvWtT2UL6dO1sUfNsRM3/Y3HrHs4uFvrr/yMilVz sha512-Hp3n7tCG+LihhK14iLLABzKnawSr5NwytAFqOUziCDEPvOZt2EATQm0BYGkN43Tasmv+3LzItUU43jnDnALtmg=="
+         "integrity": "sha256-Qc4O5bRi+fD/ZcPRMUbOAX0zrfaPdxDN3eH81hLrQVE= sha384-zlqLY2DlSyaMcCfXcyShnjv2Yb0WrMI4d1N+xtr/XGeits/WZ7YBLtInJLSTuvHb sha512-ADK/ucOBp0AMaojlIZDvO8z4mildw555FG92RxyHiKSmmK9ew2cVeEyB0edskvNYm1CvBzoABSDIw/SYEFFGKA=="
       },
       "js/completed.js.LICENSE.txt": {
          "name": "js/completed.js.LICENSE.txt",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\completed.js.LICENSE.txt",
-         "integrity": "sha256-HUOP3cZZ81P7PbergiFqVecfaqOvolOYSeaBkgN+pic= sha384-xCrzhzGHxyWeJOwlB7nIGjtEqheuH0ituczSAQbw62ZWit0cgbLqZKrk/JUElb3G sha512-wSl8aNwgXPJO6hWvafrxQ0WBXmf8SIzBh70nCYSpIVMPVBtL3SmDEwWkPWcEuruhdTTj97Jkjyt2M/SLqCKPCA=="
+         "integrity": "sha256-zfljztfSWg+YkBpUdke01uLb4Bl/14yHoFmoew5UL+I= sha384-U5LrLNXbe7TUdj31+Lc/wK6xzzXuFpzjttNg5npUFYq8s+SPOcBYtRd/E0WSC5HL sha512-NM/U4bkle9Ktv24vSc8d9CnqtXPb2XDqiYhXJDQvXa1hF6M3rSN2E0IcTbytO1OgmGlqWS7qlWTu7zatTYzbMA=="
       },
       "js/index.js": {
          "name": "js/index.js",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\index.js",
-         "integrity": "sha256-0ydHRW99fIjFqQDGtxQ5Lc6eFctt2ctgjVol1QsY4po= sha384-CecEh7hxHqsME9NInWCErFrU+psmurqolh1ljviV9aqFu7ABcPl020v6Ns5tPvYV sha512-nEOG7hjnH8ZFwmbFQaczJk/9/8k0Zs2DWAMaI4DnP5fxHiTGu07VGjsXmV224FgyGDBaoiKMLYeqMEZPj7fJlQ=="
+         "integrity": "sha256-gYOgbxD+pnbKaz+l+S6vvDqJhVJvJkVnIgVNBVIW/c4= sha384-JerNbGc3weCk0RzMT//wJfoLz4fpSJNOfTPGJpF6Kd6ufq/qjiwMAO1+ZxreFpUJ sha512-JtI7yR/Hijc3c9vKzA1Y9J0CkDt9JLsmcWxkrP70CNP+iIHWr1Zz8UrG7zy6I3DvVlLnGatgpUNS1LTWRj/g4A=="
       },
       "js/index.js.LICENSE.txt": {
          "name": "js/index.js.LICENSE.txt",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\index.js.LICENSE.txt",
-         "integrity": "sha256-qdgdGMKfHR6gGFxEVmUnfwi+aKX96yocLeFxo6o4omU= sha384-Zb6UbR6J/csmRkEKC3LVeTM4ApLJ+oUa/ZmSBJsEx7COVizok8uBOc7IDMZQ9Cx5 sha512-mhLU1ihrzP48hNd2o6KzxckRoLO6j0BAaacoaNp001mA0TiGTfi2FggVzVeY58V83kZ9VoCuUY2U/AIAmvBmDg=="
+         "integrity": "sha256-zfljztfSWg+YkBpUdke01uLb4Bl/14yHoFmoew5UL+I= sha384-U5LrLNXbe7TUdj31+Lc/wK6xzzXuFpzjttNg5npUFYq8s+SPOcBYtRd/E0WSC5HL sha512-NM/U4bkle9Ktv24vSc8d9CnqtXPb2XDqiYhXJDQvXa1hF6M3rSN2E0IcTbytO1OgmGlqWS7qlWTu7zatTYzbMA=="
       },
       "js/login.js": {
          "name": "js/login.js",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\login.js",
-         "integrity": "sha256-q4Jr/AjV4hB/lIS431/yHXbWk0gnXGlI+AouX0JkTr0= sha384-BIw8ESrt4F5gPku/J9l0D/IVGMN4UARkShVv/Pe+f0nW/QVV/4FtCdpm9TtNh/XH sha512-JvOBYa6kAcyBLCsgEWX/sQN+ov6eUFNGB8foViVPH0y3xRzH1LMTwvNsgy6Mco5zhkbiLT+tzSD8Idw1S2Gngg=="
+         "integrity": "sha256-yKrcVJdOssIh3WbSPneutxeo7U+Ap8jH9Jtctc2t7fs= sha384-DidjPk7qtLTmggA/pDcnXTfqK/TPlVBSQFmUwy7S/2shVjVgkoCQ1JsaDMciFoI7 sha512-Lw3O3je+hX0vOWAILhg7UNQE9hhT3H8MEYBv5iXEgpRcoAeOMZiSMmRq2H35sciWE5B9D1jdQUkCvoXmRPxXoQ=="
       },
       "js/login.js.LICENSE.txt": {
          "name": "js/login.js.LICENSE.txt",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\login.js.LICENSE.txt",
-         "integrity": "sha256-HUOP3cZZ81P7PbergiFqVecfaqOvolOYSeaBkgN+pic= sha384-xCrzhzGHxyWeJOwlB7nIGjtEqheuH0ituczSAQbw62ZWit0cgbLqZKrk/JUElb3G sha512-wSl8aNwgXPJO6hWvafrxQ0WBXmf8SIzBh70nCYSpIVMPVBtL3SmDEwWkPWcEuruhdTTj97Jkjyt2M/SLqCKPCA=="
+         "integrity": "sha256-zfljztfSWg+YkBpUdke01uLb4Bl/14yHoFmoew5UL+I= sha384-U5LrLNXbe7TUdj31+Lc/wK6xzzXuFpzjttNg5npUFYq8s+SPOcBYtRd/E0WSC5HL sha512-NM/U4bkle9Ktv24vSc8d9CnqtXPb2XDqiYhXJDQvXa1hF6M3rSN2E0IcTbytO1OgmGlqWS7qlWTu7zatTYzbMA=="
       },
       "js/register.js": {
          "name": "js/register.js",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\register.js",
-         "integrity": "sha256-bzgwrQ6e3LzW0pftzes8heEm9p/qJh5vp7P+jlBRWAg= sha384-i3BUJvwC2Z8SP35FjCOGYV3f2gq+sJpRCI3EA3mOkaMvjtMWPiFO1+c381YvbBvl sha512-cwc3GWvd0qDU0Lt8FX3aaPsB6C4fRXROGo0T/eZGKf8ezwbl1DCDuym4+mysHZwmyAkD5C2m2aDGHlmkx1oamA=="
+         "integrity": "sha256-uXCxKdfh4mfUc73Kp87m/D7r6zedtnRsAy5C8w9POhM= sha384-yK8hT1/52xLlQ6i3DsgyCX3C3sKBPm5UnBvLANhoSEjqIh9/cIjxjCED1cpDIG16 sha512-sWyUmJ2A8Y+Je/BPJ6lcLkgEpyzrq18ATz18LvKEK3VBbXeJCospIhp6MhLjsyuA4NQ+P+njdAeUtoH74F+bUg=="
       },
       "js/register.js.LICENSE.txt": {
          "name": "js/register.js.LICENSE.txt",
          "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\register.js.LICENSE.txt",
-         "integrity": "sha256-HUOP3cZZ81P7PbergiFqVecfaqOvolOYSeaBkgN+pic= sha384-xCrzhzGHxyWeJOwlB7nIGjtEqheuH0ituczSAQbw62ZWit0cgbLqZKrk/JUElb3G sha512-wSl8aNwgXPJO6hWvafrxQ0WBXmf8SIzBh70nCYSpIVMPVBtL3SmDEwWkPWcEuruhdTTj97Jkjyt2M/SLqCKPCA=="
+         "integrity": "sha256-zfljztfSWg+YkBpUdke01uLb4Bl/14yHoFmoew5UL+I= sha384-U5LrLNXbe7TUdj31+Lc/wK6xzzXuFpzjttNg5npUFYq8s+SPOcBYtRd/E0WSC5HL sha512-NM/U4bkle9Ktv24vSc8d9CnqtXPb2XDqiYhXJDQvXa1hF6M3rSN2E0IcTbytO1OgmGlqWS7qlWTu7zatTYzbMA=="
+      },
+      "js/shared.js": {
+         "name": "js/shared.js",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\shared.js",
+         "integrity": "sha256-9zuNCRXXKxV9tdrB6v4dvG5xBQa6oDsV0mGg0ix/kvY= sha384-yIwJ/SPlS13I0Dt67y2JOH+27y8JXVNF8V2oDNjXYBsffGGs3KILcctpUgq3/W0w sha512-EtIuoBVk7pBBKX/AuHAGyT2Pkrx1Xd8JO+OrIa2Hgow0pldFjb+OuhQTrRsvv5YEOR7ZdVyrcWpdfTdtKCd0Gg=="
+      },
+      "js/shared.js.LICENSE.txt": {
+         "name": "js/shared.js.LICENSE.txt",
+         "path": "D:\\Yousof\\todo_app\\rest_api_react_todo\\static\\files\\js\\shared.js.LICENSE.txt",
+         "integrity": "sha256-/Z5pHxjzbXq4hTxF18doDbL+6k2KGC7bozcSufiqI5Y= sha384-mywOx9mBFutJfbKNR67sFEvBKAyq6xB9OLBpawrcnXS+G9Y6cp3MCaAIzR+NZX7Y sha512-hYvw2zRj1174OiWV02d1JJ8KkofVMaHt7W6ysdHOYPCpvq+0/5eKzdLskIIkpMWtGhjLyJtSCQZVwkHwsURzhA=="
       }
    },
    "chunks": {
       "completed": [
+         "js/shared.js",
          "css/completed.css",
          "js/completed.js"
       ],
       "index": [
+         "js/shared.js",
          "css/index.css",
          "js/index.js"
       ],
       "login": [
+         "js/shared.js",
          "css/login.css",
          "js/login.js"
       ],
       "register": [
+         "js/shared.js",
          "css/register.css",
          "js/register.js"
       ]
    },
-   "startTime": 1704982269482,
-   "endTime": 1704982287491,
-   "error": "ModuleBuildError",
-   "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\src\\component\\Navbar.js: Missing initializer in const declaration. (9:13)\n\n   7 |   const [navbarOpen, setNavbarOpen] = useState(false);\n   8 |\n>  9 |   const token \n     |              ^\n  10 |   console.log('navbar run');\n  11 |   console.log(token)\n  12 |\n    at constructor (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:356:19)\n    at JSXParserMixin.raise (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:3223:19)\n    at JSXParserMixin.parseVar (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13272:16)\n    at JSXParserMixin.parseVarStatement (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13105:10)\n    at JSXParserMixin.parseStatementContent (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12688:23)\n    at JSXParserMixin.parseStatementLike (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12593:17)\n    at JSXParserMixin.parseStatementListItem (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12573:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13194:61)\n    at JSXParserMixin.parseBlockBody (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13187:10)\n    at JSXParserMixin.parseBlock (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13175:10)\n    at JSXParserMixin.parseFunctionBody (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:11940:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:11926:10)\n    at D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13323:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12266:14)\n    at JSXParserMixin.parseFunction (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13322:10)\n    at JSXParserMixin.parseFunctionStatement (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12989:17)\n    at JSXParserMixin.parseStatementContent (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12619:21)\n    at JSXParserMixin.parseStatementLike (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12593:17)\n    at JSXParserMixin.parseStatementListItem (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12573:17)\n    at JSXParserMixin.parseExportDeclaration (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13840:17)\n    at JSXParserMixin.maybeParseExportDeclaration (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13795:31)\n    at JSXParserMixin.parseExport (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13718:29)\n    at JSXParserMixin.parseStatementContent (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12720:27)\n    at JSXParserMixin.parseStatementLike (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12593:17)\n    at JSXParserMixin.parseModuleItem (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12570:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13194:36)\n    at JSXParserMixin.parseBlockBody (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:13187:10)\n    at JSXParserMixin.parseProgram (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12469:10)\n    at JSXParserMixin.parseTopLevel (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:12459:25)\n    at JSXParserMixin.parse (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:14381:10)\n    at parse (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\parser\\lib\\index.js:14422:38)\n    at parser (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\core\\lib\\parser\\index.js:41:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\core\\lib\\transformation\\index.js:21:50)\n    at run.next (<anonymous>)\n    at transform (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\@babel\\core\\lib\\transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\gensync\\index.js:261:32)\n    at D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\gensync\\index.js:273:13\n    at async.call.result.err.err (D:\\Yousof\\todo_app\\rest_api_react_todo\\react_todo\\node_modules\\gensync\\index.js:223:11)"
+   "startTime": 1705668330871,
+   "endTime": 1705668343984
 }

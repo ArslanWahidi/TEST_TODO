@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import FetchContext from "../Contexts/FetchContext";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from 'axios';
+import AccessTokenAPI from "../AccessTokenAPI";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
@@ -56,22 +57,19 @@ const FormList = () => {
 
   const mutation = useMutation({
     mutationFn: async (newData) =>{
-      const csrf_res = await fetch("/csrf_token/");
-      const csrf_data = await csrf_res.json();
       try{
-        await axios.post('/task_create/', newData, {
+        const csrf_res = await fetch("/csrf_token/");
+        const csrf_data = await csrf_res.json();
+
+        await AccessTokenAPI.post('/task_create/', newData, {
           headers: {
             "Content-Type": "application/json",
             "X-CSRFToken": csrf_data.csrfToken,
-            Authorization: `Bearer ${localStorage.getItem('access_token')}`,
           }
         })
       }catch(err){
         console.log(err)
         if(err.response.status === 401){
-          window.location = '/login_page/';
-          localStorage.removeItem('access_token');
-          localStorage.removeItem('refresh_token');
         }
       }
     },
